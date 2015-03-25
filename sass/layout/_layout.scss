@@ -1,0 +1,18 @@
+@include max-screen(800px){
+  #navbar{
+    display: none;
+  }
+  #main-content{
+    float: none;
+    width: 100%;
+  }
+}
+
+@include max-screen(500px){
+  #main-content{
+    .post-item{
+      float: none;
+      width: 100%;
+    }
+  }
+}
